@@ -81,10 +81,45 @@ nav ul li a {
     margin-top: 20px;
 }
 
-
-
 /* header section ends here */
 
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* team section */
+.team-container{
+    display: flex;
+    align-items: center;
+}
+
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+
+.team-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.team-title{
+    font-size: 2.8rem;
+
+}
+
+.team-title .quick-list{
+    color: #727272 ;
+    font-weight: 500;
+}
+
+.team-title .text-feature{
+    color: #FF900E;
+    font-weight: 700;
+}
 
 /* Responsive media query */
 
