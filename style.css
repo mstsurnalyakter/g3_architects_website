@@ -210,6 +210,20 @@ main {
   width: 165px;
 }
 
+footer{
+  max-width: 1440px;
+  width: 75%;
+  height: 100px;
+  margin: 20px auto 100px auto;
+  border-radius: 8px;
+background: #FFF4E7;
+
+}
+
+footer p{
+  padding: 40px;
+}
+
 /* Responsive media query */
 
 @media screen and (max-width: 576px) {
@@ -226,7 +240,7 @@ main {
   }
 
   .feature-image img{
-    width: 90%;
+    /* width: 90%; */
     margin-left: 0;
   }
 
